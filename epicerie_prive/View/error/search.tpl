@@ -1,0 +1,1 @@
+<span>Vous devez entrer le nom d'un produit à rechercher.</span>

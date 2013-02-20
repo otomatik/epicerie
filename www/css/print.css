@@ -1,0 +1,7 @@
+body { 
+    display: block;
+    font-size: 1em;
+}
+#header, #rightcol, #footer, #content input, #content .yellow-button {
+    display: none;
+}

@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+SetEnv HTTP_ROOT /epicerie/
+RewriteEngine on
+RewriteBase /epicerie/
+RewriteCond %{REQUEST_URI} !\.(js|css|jpg|png|gif)$
+RewriteRule .* index.php
