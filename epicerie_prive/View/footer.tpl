@@ -1,6 +1,6 @@
 	    </div>
 	    <div id="footer">
-		<p>©2012 Thomas Dalous & Paul Roguier</p>
+		<p>©2012 <a href="thomas.dalo.us">Thomas Dalous</a></p>
 		<ul>
 		     <?php menu($GLOBALS['menu']); ?>
 		</ul>
