@@ -33,5 +33,3 @@
 		    <div class="block-top"></div>
 		    <div class="block-content">
 			<h2><?php echo $title; ?></h2>
-
-<?php //var_dump( $_SERVER); ?>
