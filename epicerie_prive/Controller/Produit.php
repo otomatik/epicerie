@@ -100,7 +100,7 @@ class Controller_Produit extends Controller_Template
 	$categories = $this->categoriesModel->getAll();
 	
 	if(!empty($image))
-	    move_uploaded_file($image["tmp_name"], "C:\Users\Thomas\Dropbox\Partage_TOM-PAUL\Projet_LO07\www\img\\" . $image['name']);
+	    move_uploaded_file($image["tmp_name"], $image['name']);
 	else
 	    $image_name = "NULL";
 	
